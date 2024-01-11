@@ -45,7 +45,7 @@
 
 @font-face {
   font-family: dunkin-sans;
-  src: url(/fonts/dunkin-sans/DunkinSans-Book.woff2) format('woff2');
+  src: url(../fonts/dunkin-sans/DunkinSans-Book.woff2) format('woff2');
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -53,7 +53,7 @@
 
 @font-face {
   font-family: dunkin-sans;
-  src: url(/fonts/dunkin-sans/DunkinSans-Medium.woff2) format('woff2');
+  src: url(../fonts/dunkin-sans/DunkinSans-Medium.woff2) format('woff2');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -61,7 +61,7 @@
 
 @font-face {
   font-family: dunkin-sans;
-  src: url(/fonts/dunkin-sans/DunkinSans-ExtraBold.woff2) format('woff2');
+  src: url(../fonts/dunkin-sans/DunkinSans-ExtraBold.woff2) format('woff2');
   font-display: swap;
   font-weight: 800;
   font-style: normal;
