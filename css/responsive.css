@@ -1,0 +1,125 @@
+@import url(../css/grid.css);
+
+/* pc */
+@media (min-width:1200px) {
+    ::-webkit-scrollbar {
+        width: 10px
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #fafafa
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--skin-color);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(99, 99, 99)
+    }
+}
+
+/* tablet & pc low screen */
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* tablet */
+@media (max-width:991px) {}
+
+/* mobile large & moblie landscape*/
+@media (max-width:767px) {
+    body {
+        font-size: 15px;
+    }
+
+    /* effect */
+    .effect-3 {
+        margin-left: -70px;
+    }
+
+    .effect-4 {
+        left: 15%;
+    }
+
+    .effect-5 {
+        right: 4%;
+    }
+
+    /* home section */
+    .home-section .home-text {
+        text-align: center;
+        order: 1;
+    }
+
+    .home-section .full-screen {
+        padding: 100px 0;
+    }
+
+    .home-section .home-img .img-box {
+        max-width: 350px;
+    }
+
+    /* about section */
+    .about-section .about-img {
+        margin: auto;
+    }
+
+    .about-section .about-info div:last-child {
+        justify-content: center;
+    }
+
+    .about-section .timeline .timeline-item:nth-child(odd) {
+        padding: 0 15px 0 75px;
+        text-align: left;
+    }
+
+    .about-section .timeline .timeline-item:nth-child(even) {
+        padding-left: 75px;
+    }
+
+    .about-section .timeline::before {
+        left: 40px;
+    }
+
+    .about-section .timeline .timeline-item:nth-child(odd) .icon {
+        right: auto;
+        left: -60px;
+    }
+
+    .about-section .timeline .timeline-item:nth-child(even) .icon {
+        left: -60px;
+    }
+
+    .about-section .timeline .timeline-item {
+        margin-bottom: 40px;
+    }
+
+    .about-section .timeline .timeline-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner::before {
+        left: -30px;
+        right: auto;
+    }
+}
+
+/* mobile */
+@media (max-width: 574px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* home section */
+    .home-section .home-img .img-box {
+        max-width: 260px;
+    }
+
+    .home-section .home-text h2 {
+        font-size: 27px;
+    }
+}
